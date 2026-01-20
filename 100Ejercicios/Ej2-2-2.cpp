@@ -27,8 +27,9 @@ int main()
     {
         for (int j = N - 1; j >= 0; j--)
         {
-            std::cout << "Valor [" << i << "][" << j << "]:" << matriz[i][j] << "\n";
+            std::cout << "[" << i << "][" << j << "]:" << matriz[i][j] << "\t";
         }
+        std::cout << "\n";
     }
 
     system("pause");
